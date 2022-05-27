@@ -1,5 +1,6 @@
 package com.example.android_c1
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.LinearLayout
@@ -17,42 +18,45 @@ class MainActivity : AppCompatActivity() {
         var btn_red = findViewById<Button>(R.id.btn_red)
         var btn_blue = findViewById<Button>(R.id.btn_blue)
         var btn_green = findViewById<Button>(R.id.btn_white)
-
-
+        var next_project=findViewById<Button>(R.id.project_2)
 
 
 
 
         btn_purple.setOnClickListener {
-            make_toast(text_view,"Purple")
+            make_toast(text_view, "Purple")
             id_linearlayout.setBackgroundColor(resources.getColor(R.color.purple))
 
         }
-
         btn_red.setOnClickListener {
-            make_toast(text_view,"Red")
+            make_toast(text_view, "Red")
             id_linearlayout.setBackgroundColor(resources.getColor(R.color.red))
 
         }
         btn_blue.setOnClickListener {
-            make_toast(text_view,"Blue")
+            make_toast(text_view, "Blue")
             id_linearlayout.setBackgroundColor(resources.getColor(R.color.blue))
 
         }
-
         btn_green.setOnClickListener {
-            make_toast(text_view,"Green")
+            make_toast(text_view, "Green")
             id_linearlayout.setBackgroundColor(resources.getColor(R.color.green))
 
         }
 
+        next_project.setOnClickListener {
+            var i=Intent(this,project2::class.java)
+            startActivity(i)
+        }
 
 
     }
 
-    fun make_toast(text_view:TextView,text:String){
+
+    fun make_toast(text_view: TextView, text: String) {
         Toast.makeText(this, "Button  $text", Toast.LENGTH_SHORT).show()
         text_view.text = "$text"
+
 
     }
 

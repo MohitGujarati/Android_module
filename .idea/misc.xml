@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable-v24/txtbaground.xml" value="0.1675" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1675" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1675" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1675" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_login_page.xml" value="0.27447916666666666" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project2.xml" value="0.2604166666666667" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project3.xml" value="0.152" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/login.xml" value="0.25" />
       </map>
     </option>
   </component>
