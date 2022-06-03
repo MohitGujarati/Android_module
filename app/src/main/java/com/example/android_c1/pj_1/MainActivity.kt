@@ -1,4 +1,4 @@
-package com.example.android_c1
+package com.example.android_c1.pj_1
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android_c1.R
+import com.example.android_c1.pj_2.project2
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         next_project.setOnClickListener {
-            var i=Intent(this,project2::class.java)
+            var i=Intent(this, project2::class.java)
             startActivity(i)
         }
 

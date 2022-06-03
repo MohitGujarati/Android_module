@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".project_3">
+    tools:context=".pj_3.project_3">
 
     <TextView
         android:layout_width="match_parent"
@@ -107,6 +107,22 @@
         android:text="Option Name"
         android:textAllCaps="false"
         android:textColor="#020D50"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next_project_4"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#A986F1"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="Next project"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="16dp"
         android:textStyle="bold" />
 

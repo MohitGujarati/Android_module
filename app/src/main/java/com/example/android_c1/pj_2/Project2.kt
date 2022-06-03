@@ -1,4 +1,4 @@
-package com.example.android_c1
+package com.example.android_c1.pj_2
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android_c1.R
+import com.example.android_c1.pj_3.project_3
 
 class project2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,7 +75,7 @@ class project2 : AppCompatActivity() {
 
         }
         btn_project3.setOnClickListener {
-            var i=Intent(this,project_3::class.java)
+            var i=Intent(this, project_3::class.java)
             startActivity(i)
         }
 

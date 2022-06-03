@@ -10,19 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_c1">
         <activity
-            android:name=".project_3"
-            android:exported="false" />
-        <activity
-            android:name=".project2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".pj_5.project_5"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".pj_4.output_project_4"
+            android:exported="false" />
+        <activity
+            android:name=".pj_4.project_4"
+            android:exported="false" />
+        <activity
+            android:name=".pj_3.project_3"
+            android:exported="false" />
+        <activity
+            android:name=".pj_2.project2"
+            android:exported="false" />
+        <activity
+            android:name=".pj_1.MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
