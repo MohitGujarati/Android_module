@@ -63,9 +63,7 @@ class project_5 : AppCompatActivity() {
     }
 
     private fun update_array(checkArray: ArrayList<String>) {
-        for (i in 0..checkArray.size) {
             Log.d("array_data", checkArray.toString())
-        }
     }
 
 }
