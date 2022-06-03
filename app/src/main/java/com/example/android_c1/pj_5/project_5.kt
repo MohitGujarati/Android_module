@@ -46,7 +46,7 @@ class project_5 : AppCompatActivity() {
                 Toast.makeText(this, chk_kotlin.text.toString(), Toast.LENGTH_SHORT).show()
                 update_array(check_array)
             } else
-                check_array.remove(chk_android.text.toString())
+                check_array.remove(chk_kotlin.text.toString())
             update_array(check_array)
         }
 
@@ -57,7 +57,7 @@ class project_5 : AppCompatActivity() {
                 update_array(check_array)
 
             } else
-                check_array.remove(chk_android.text.toString())
+                check_array.remove(chk_java.text.toString())
             update_array(check_array)
         }
     }
