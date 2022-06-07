@@ -42,20 +42,25 @@
         />
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/flt_btn"
+            app:cornerRadius="2dp"
+            android:src="@drawable/ic_android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_margin="20dp"
-            android:backgroundTint="#88AAFF"
-            android:src="@drawable/ic_android" />
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|end"
+            android:backgroundTint="#A4FFFF"
+            android:contentDescription="open android"
 
+            android:text="Next Activity"
+            app:icon="@drawable/ic_android">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
     </FrameLayout>
 </LinearLayout >

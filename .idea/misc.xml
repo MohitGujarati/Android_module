@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable-v24/txtbaground.xml" value="0.1675" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_android.xml" value="0.136" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1675" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1675" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1675" />
@@ -14,7 +15,8 @@
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project2.xml" value="0.2604166666666667" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project3.xml" value="0.2675925925925926" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project4.xml" value="0.27447916666666666" />
-        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project5.xml" value="0.176" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project5.xml" value="0.264" />
+        <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_project6.xml" value="0.27447916666666666" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/activity_sub_project4.xml" value="0.2675925925925926" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/All android 2022-2023/Android_c1/app/src/main/res/layout/toastlayout.xml" value="0.1" />

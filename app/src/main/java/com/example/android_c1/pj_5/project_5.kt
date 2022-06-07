@@ -1,13 +1,14 @@
 package com.example.android_c1.pj_5
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.CheckBox
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.android_c1.R
 import com.example.android_c1.pj_1.MainActivity
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class project_5 : AppCompatActivity() {
@@ -18,7 +19,7 @@ class project_5 : AppCompatActivity() {
         var chk_android = findViewById<CheckBox>(R.id.chk_android)
         var chk_kotlin = findViewById<CheckBox>(R.id.kotlin)
         var chk_java = findViewById<CheckBox>(R.id.java)
-        var flt_btn = findViewById<FloatingActionButton>(R.id.flt_btn)
+        var flt_btn = findViewById<ExtendedFloatingActionButton>(R.id.flt_btn)
 
         var check_array = arrayListOf<String>()
 
@@ -63,7 +64,7 @@ class project_5 : AppCompatActivity() {
     }
 
     private fun update_array(checkArray: ArrayList<String>) {
-            Log.d("array_data", checkArray.toString())
+        Log.d("array_data", checkArray.toString())
     }
 
 }
